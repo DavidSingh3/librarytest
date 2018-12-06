@@ -1,0 +1,40 @@
+@mixin button {
+  all: unset;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 17px;
+  border: 1px solid $darkGrey;
+  padding: 4px 6px;
+  user-select: none;
+
+  &:not(.disabled) {
+    &:hover {
+      cursor: pointer;
+      border-color: $primary;
+      color: $primary;
+      * {
+        color: $primary;
+      }
+    }
+    &:active {
+      border-color: $primary;
+      background-color: $primary;
+      color: white;
+      * {
+        color: white;
+      }
+    }
+  }
+
+  &.disabled{
+    pointer-events: none;
+    color: $grey;
+    &:not(.borderless) {
+      border-color: currentColor;
+    }
+    &.borderless {
+      color: currentColor;
+    }
+  }
+}

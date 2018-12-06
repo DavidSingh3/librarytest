@@ -1,0 +1,45 @@
+@mixin planning-icon-colors {
+  &.circle {
+    color: $white;
+    border-radius: 50%;
+    &.wip {
+      background-color: $wip;
+    }
+    &.publication {
+      background-color: $publication;
+    }
+    &.qa-questions {
+      background-color: $qa;
+    }
+    &.qa-answers {
+      background-color: $qaAnswers;
+    }
+    &.answer {
+      background-color: $answer;
+    }
+    &.assignment {
+      background-color: $assignment;
+    }
+  }
+
+  &:not(.circle) {
+    &.wip {
+      color: $wip;
+    }
+    &.publication {
+      color: $publication;
+    }
+    &.qa-questions {
+      color: $qa;
+    }
+    &.qa-answers {
+      color: $qaAnswers;
+    }
+    &.answer {
+      color: $answer;
+    }
+    &.assignment {
+      color: $assignment;
+    }
+  }
+}

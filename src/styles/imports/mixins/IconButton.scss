@@ -1,0 +1,26 @@
+@mixin icon-button {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 2px;
+  color: $darkGrey;
+  border: 1px solid currentColor;
+
+  &:hover {
+    color: $primary;
+  }
+
+  &:active {
+    color: $white;
+    background-color: $primary;
+  }
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}

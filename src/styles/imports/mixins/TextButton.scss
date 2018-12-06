@@ -1,0 +1,13 @@
+@mixin text-button {
+  font-size: 14px;
+  color: $darkGrey;
+  cursor: pointer;
+  user-select: none;
+  &:hover {
+    color: $primary;
+  }
+
+  .icon {
+    margin-right: 8px;
+  }
+}

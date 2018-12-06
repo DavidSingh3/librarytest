@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "InterUI";
+  font-style:  normal;
+  font-weight: 400;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-Regular.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "InterUI Italic";
+  font-style:  italic;
+  font-weight: 400;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-Italic.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "InterUI Medium";
+  font-style:  normal;
+  font-weight: 500;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-Medium.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "InterUI Medium Italic";
+  font-style:  italic;
+  font-weight: 500;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-MediumItalic.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "InterUI SemiBold";
+  font-style:  normal;
+  font-weight: 600;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-SemiBold.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "InterUI SemiBold Italic";
+  font-style:  italic;
+  font-weight: 600;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-SemiBoldItalic.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-SemiBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "InterUI Bold";
+  font-style:  normal;
+  font-weight: 700;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-Bold.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "InterUI Bold Italic";
+  font-style:  italic;
+  font-weight: 700;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-BoldItalic.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "InterUI ExtraBold";
+  font-style:  normal;
+  font-weight: 800;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-ExtraBold.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "InterUI ExtraBold Italic";
+  font-style:  italic;
+  font-weight: 800;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-ExtraBoldItalic.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-ExtraBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "InterUI Black";
+  font-style:  normal;
+  font-weight: 900;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-Black.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "InterUI Black Italic";
+  font-style:  italic;
+  font-weight: 900;
+  src: url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI.var.woff2") format("woff2-variations"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-BlackItalic.woff2") format("woff2"),
+  url("~@appsaloon/octopus_ui_shared/dist/assets/fonts/Inter-UI-3.0/Inter UI (web)/Inter-UI-BlackItalic.woff") format("woff");
+}

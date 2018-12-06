@@ -1,0 +1,25 @@
+@import "./mixins/PlanningIconMixins.scss";
+@import "./mixins/IconButton.scss";
+@import "./mixins/TextButton.scss";
+@import "./mixins/Button.scss";
+
+@mixin box-shadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.16);
+}
+
+@mixin precise-width($n) {
+  min-width: $n;
+  max-width: $n;
+}
+
+@mixin precise-height($n) {
+  min-height: $n;
+  max-height: $n;
+}
+
+@mixin precise-width-height($n) {
+  min-width: $n;
+  max-width: $n;
+  min-height: $n;
+  max-height: $n;
+}
